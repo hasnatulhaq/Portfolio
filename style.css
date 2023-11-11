@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+}
+.container{
+    background-color: wheat;
+    height: 100vh;
+    padding: 0rem 5rem 0rem 5rem;
+}
+
+.container_section{
+    height: 100vh;
+    display: flex;
+    box-sizing: border-box;
+    padding: 5rem;
+    gap: 1rem;
+}
+
+.cs_intro{
+    background-color: white;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cs_image{
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
